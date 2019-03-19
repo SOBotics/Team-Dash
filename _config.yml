@@ -1,0 +1,47 @@
+title: SOBotics team
+email: your-email@example.com
+
+baseurl: "" # TODO - preferably without breaking anyhting 
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: SOBotics
+github_username:  SOBotics
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+
+### Servers
+
+servers: 
+  - Badger: {
+    url: "https://github.com/SOBotics/Badger",
+    maintainer: "Bhargav Rao",
+    host: "Bhargav Rao"
+  }
+  - Belisarius: {
+    url: "https://github.com/SOBotics/Belisarius",
+    maintainer: "Bugs",
+    host: "Bugs"
+  }
+  - Bonfire: {
+    url: "https://github.com/SOBotics/Bonfire",
+    maintainer: "Ashish Ahuja",
+    host: "Felix"
+  }
+  - Boson: {
+    url: "https://github.com/SOBotics/Boson",
+    maintainer: "Bhargav Rao",
+    host: "Bhargav Rao"
+  }
+  
+    
+### Contributors
+# Pull requests are welcome for this part: I have no clue who to add here.
+# Same on coders
+contributors: 
+  regulars: 
+    - geisterfurz007: "https://stackoverflow.com/users/6707985/"
+    - "Baum mit Augen": "https://chat.stackoverflow.com/users/3002139/"
+    
+  #coders:

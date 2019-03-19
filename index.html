@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<!-- Maybe this should be moved to a separate file? -->
+<div class="regulars">
+    <h2>Regulars</h2>
+
+    <ul>
+        {% for user in site.contributors.regulars %}
+            {% for userdata in user %}
+                <li>
+                    <a href="{{userdata[1]}}">{{userdata[0]}}</a>
+                </li>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+</div>
