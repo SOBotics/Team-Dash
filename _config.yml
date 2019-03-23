@@ -1,7 +1,6 @@
-title: SOBotics team
-email: your-email@example.com
+title: SOBotics
 
-baseurl: "" # TODO - preferably without breaking anyhting 
+baseurl: "" # TODO - preferably without breaking anything 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SOBotics
 github_username:  SOBotics
@@ -14,28 +13,122 @@ theme: minima
 ### Servers
 
 servers: 
-  - Badger: {
-    url: "https://github.com/SOBotics/Badger",
-    maintainer: "Bhargav Rao",
-    host: "Bhargav Rao"
+  - "Bhargav Rao/Heroku": {
+      Host: "Bhargav Rao",
+      Projects: [ 
+         "Tag Wiki Edit Monitor": "https://github.com/SOBotics/TagWiki-Monitor"
+      ]
+    }
+  - "Bhargav Rao/Azure": {
+      Host: "Bhargav Rao",
+      Domain: "us2.sobotics.org",
+      Projects: [
+          "UserStalker": "https://github.com/SOBotics/UserStalker",
+          "JukeBox": "https://github.com/SOBotics/JukeBox",
+          "Boson": "https://github.com/SOBotics/Boson",
+          "Badger": "https://github.com/SOBotics/Badger",
+          "Revnant": "https://github.com/SOBotics/Revenant"
+        ]
+    }
+  - "Petter Friberg/WindowsServer2012": {
+      Host: "Petter Friberg",
+      Projects: [
+        "HeatDetector": "https://github.com/SOBotics/HeatDetector",
+        "SOCVFinder": "https://github.com/SOBotics/SOCVFinder"
+      ]
   }
-  - Belisarius: {
-    url: "https://github.com/SOBotics/Belisarius",
-    maintainer: "Bugs",
-    host: "Bugs"
+  - "FelixSFD/eu1.sobotics.org": {
+    Host: "FelixSFD",
+    Domain: "eu1.sobotics.org",
+    Projects: [
+      "Guttenberg": "https://github.com/SOBotics/Guttenberg",
+      "Notepad": "https://github.com/SOBotics/Notepad"
+    ]
   }
-  - Bonfire: {
-    url: "https://github.com/SOBotics/Bonfire",
-    maintainer: "Ashish Ahuja",
-    host: "Felix"
+  - "FelixSFD/eu2.sobotics.org": {
+    Host: "FelixSFD",
+    Domain: "eu2.sobotics.org",
+    Projects: [
+      "Guttenberg": "https://github.com/SOBotics/Guttenberg",
+      "CopyPastor": "https://github.com/SOBotics/CopyPastor",
+      "Open Reports": "https://github.com/SOBotics/Open-Reports"
+    ]
   }
-  - Boson: {
-    url: "https://github.com/SOBotics/Boson",
-    maintainer: "Bhargav Rao",
-    host: "Bhargav Rao"
+  - "NobodyNada/Raspberry Pi": {
+    Host: "NobodyNada",
+    Projects: [
+      "FireAlarm": "https://github.com/SOBotics/FireAlarm",
+      "Reports": "https://github.com/SOBotics/Reports"
+    ]
   }
-  
-    
+  - "Filnor/Blitz": {
+    Host: "Filnor", 
+    Domain: "eu3.sobotics.org",
+    Projects: [
+      "CheckYerFlags": "https://github.com/SOBotics/FlaggersHall",
+      "Hermes": "https://github.com/SOBotics/SoundFlow",
+      "Thunder": "https://github.com/SOBotics/Thunder",
+      "Natty": "https://github.com/SOBotics/Natty",
+      "NAPI": "https://github.com/SOBotics/NAPI"
+    ]
+  }
+  - "Floern/Huckepack": {
+    Host: "Floern",
+    Projects: [
+      "Generic Bot": "https://github.com/Floern/stackoverflow"
+    ]
+  }
+  - "FrankerZServer": {
+    Host: "FrankerZ",
+    Projects: [
+      "SpotDetector": "https://github.com/SOBotics/SpotDetector"
+    ]
+  }
+  - "paper1111Server": {
+    Host: "paper1111",
+    Projects: [
+      "Sockite": "https://github.com/SOBotics/Sockite"
+    ]
+  }
+  - "ArtofCodeServer": {
+    Host: "Art of Code",
+    Projects: [
+      "Redunda": "https://github.com/SOBotics/Redunda"
+    ]
+  }
+  - "JoncleServer": {
+    Host: "Joncle",
+    Projects: [
+      "Burnaki": "https://github.com/SOBotics/Burnaki"
+    ]
+  }
+  - "PandyaServer": {
+    Host: "Pandya",
+    Projects: [
+      "CitationDetector": "https://github.com/SOBotics/Citation-Detector"
+    ]
+  }
+  - "RobServer": {
+    Host: "Rob",
+    Projects: [
+      "Rodgort": "https://github.com/SOBotics/Rodgort",
+      "Higgs": "https://github.com/SOBotics/Higgs"
+    ]
+  }
+  - "GitHub": {
+    Host: "GitHub",
+    Projects: [
+      "SOBotics Blog": "https://github.com/SOBotics/SOBotics.github.io",
+      "SOBotics Team": "https://github.com/SOBotics/Team-Dash"
+    ]
+  }
+  - "BugsServer": {
+    Host: "Bugs",
+    Projects: [
+      "Belisarius": "https://github.com/SOBotics/Belisarius"
+    ]
+  }
+
 ### Contributors
 # Pull requests are welcome for this part: I have no clue who to add here.
 # Same on coders

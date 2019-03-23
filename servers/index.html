@@ -3,21 +3,38 @@ layout: default
 ---
 
 <div id="hosts">
-    <table>
-        <tr class="highlight-row">
-            <th>project</th>
-            <th>Maintainer</th>
-            <th>Host</th>
-        </tr>
-        {% for host in site.servers %}
-            {% for serverdata in host %}
-                <tr>
-                    <th><a href="{{ serverdata[1].url }}">{{ serverdata[0] }}</a></th>
-                    <th>{{ serverdata[1].maintainer }}</th>
-                    <th>{{ serverdata[1].host }}</th>
-                </tr>
-            {% endfor %}
-        {% endfor %}   
-    </table>
+    <h1 class="text-center">Project host locations</h1>    
+    {% for server in site.servers %}
+        {% for serverData in server %}
+            {% assign serverName = serverData[0] %}
+            {% assign serverInfo = serverData[1] %}
+            <p><b>Server:</b> 
+                {% assign strippedServer = serverName | replace: " ", "" %}
+                {% capture defaultName %}{{ serverInfo.Host | replace: " ", "" }}Server{% endcapture %}
+                {% if strippedServer == defaultName %} 
+                    {% if serverInfo.Domain %} 
+                        {{ serverInfo.Domain }} 
+                    {% else %}
+                        {{ serverName }}
+                    {% endif %}
+                {% else %}
+                    {{ serverName }}
+                    {% if serverInfo.Domain %} - {{ serverInfo.Domain }} {% endif %}
+                {% endif %}
+            </p>
+            <ul>
+                <li>Host: {{ serverInfo.Host }}</li>
+                <li>Hosted projects:</li>
+                <ul>
+                    {% for project in serverInfo.Projects %}
+                        {% for components in project %}
+                            <li><a href="{{ components[1] | escape }}">{{ components[0] }}</a></li>
+                        {% endfor %}
+                    {% endfor %}
+                </ul>
+            </ul>
+        {% endfor %} 
+    {% endfor %}   
+    
 </div>
 
