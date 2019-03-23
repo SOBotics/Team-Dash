@@ -1,3 +1,23 @@
 ---
 layout: default
 ---
+
+<div id="hosts">
+    <table>
+        <tr class="highlight-row">
+            <th>project</th>
+            <th>Maintainer</th>
+            <th>Host</th>
+        </tr>
+        {% for host in site.servers %}
+            {% for serverdata in host %}
+                <tr>
+                    <th><a href="{{ serverdata[1].url }}">{{ serverdata[0] }}</a></th>
+                    <th>{{ serverdata[1].maintainer }}</th>
+                    <th>{{ serverdata[1].host }}</th>
+                </tr>
+            {% endfor %}
+        {% endfor %}   
+    </table>
+</div>
+
