@@ -1,3 +1,60 @@
 ---
 ---
 
+@import "{{ site.theme }}";
+
+// Colors
+$background-primary: #222;
+$color-primary-dark: #ffffff;
+$color-link-dark: #ee4444;
+
+$color-primary-light: #000;
+$color-link-light: #2a6496;
+
+$color-highlight-all: #ee4444;
+// End colors
+
+.text-center {
+    text-align: center;
+    width: auto;
+}
+
+.primary-theme {
+    color: $color-primary-dark;
+    padding: 20px;
+    background: $background-primary;
+
+    a, a:hover {
+        color: $color-link-dark;
+    }
+}
+
+header {
+    h3 {
+        margin-bottom: 0px !important;
+    }   
+}
+
+footer {
+    display: block;
+    .foot-left {
+        float: left;
+        width: auto;
+        display: inline-block;
+    }
+    .foot-right {
+        float:right;
+        width:auto;
+        display: inline-block;
+    }
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
