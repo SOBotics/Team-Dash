@@ -26,10 +26,15 @@ servers:
           "UserStalker": "https://github.com/SOBotics/UserStalker",
           "JukeBox": "https://github.com/SOBotics/JukeBox",
           "Boson": "https://github.com/SOBotics/Boson",
-          "Badger": "https://github.com/SOBotics/Badger",
-          "Revnant": "https://github.com/SOBotics/Revenant"
+          "Badger": "https://github.com/SOBotics/Badger"
         ]
     }
+  - "BhargavRaoServer": {
+    Host: "Bhargav Rao",
+    Projects: [
+      "Revenant": "https://github.com/SOBotics/Revenant"
+    ]
+  }
   - "Petter Friberg/WindowsServer2012": {
       Host: "Petter Friberg",
       Projects: [
@@ -63,11 +68,16 @@ servers:
   }
   - "Filnor/Blitz": {
     Host: "Filnor", 
-    Domain: "eu3.sobotics.org",
     Projects: [
       "CheckYerFlags": "https://github.com/SOBotics/FlaggersHall",
       "Hermes": "https://github.com/SOBotics/SoundFlow",
-      "Thunder": "https://github.com/SOBotics/Thunder",
+      "Thunder": "https://github.com/SOBotics/Thunder"
+    ]
+  }
+  - "FilnorServer": {
+    Host: "Filor",
+    Domain: "eu3.sobotics.org",
+    Projects: [
       "Natty": "https://github.com/SOBotics/Natty",
       "NAPI": "https://github.com/SOBotics/NAPI"
     ]
