@@ -1,7 +1,14 @@
 <header class="primary-theme">
     <div class="container">
-        <h3 class="left logo"><a href="/">SOBotics</a></h3>
-
+        <span class="left logo"><a href="/">SOBotics</a></span>
+        <div id="sidenav" class="sidenav">
+            <a href="javascript:void(0)" class="close" onclick="closeSidenav()">&times;</a>
+            {% include nav.html %}
+        </div>
+        <div class="topnav right">
+            {% include nav.html %}
+        </div>
+        <span class="sidenav-trigger" onclick="openSidenav()">&#9776</span>
     </div>
 
 </header>

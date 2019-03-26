@@ -29,8 +29,9 @@ $color-highlight-all: #ee4444;
 }
 
 header {
-    h3 {
+    .logo {
         margin-bottom: 0px !important;
+        font-size: 20px;
     }   
 }
 
@@ -75,5 +76,69 @@ main {
 @media only screen and (min-width: 990px) {
     .container {
         width: 70%;
+    }
+}
+// Responsive stuff
+.sidenav {
+    @extend .primary-theme;
+    height: 100% !important;
+    width: 0;
+    position:fixed;
+    z-index: 1;
+    top: 0; left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 0px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav .close {
+    position: absolute; 
+    top: 0; right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+// Alignment meta
+.left { float: left; }
+.right { float: right; }
+
+.sidenav-trigger {
+    @extend .right;
+    display: none;
+    cursor: pointer; 
+    font-size: 30px;
+}
+
+.topnav {
+    font-size: 20px;
+    a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 522px) {
+    .topnav {
+        display: none;          
+    }
+    .sidenav-trigger {
+        display: inline-block;
+    }
+    .sidenav {
+        padding-top: 60px;
     }
 }
