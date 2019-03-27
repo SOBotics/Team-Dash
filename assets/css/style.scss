@@ -142,3 +142,17 @@ main {
         padding-top: 60px;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .foot-left {
+        float: none !important;
+        width: 100% !important;
+    }
+    .foot-right {
+        margin-top: 10px; 
+        float: none !important;
+        width: 100% !important;
+    }
+}
+
+
