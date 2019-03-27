@@ -22,7 +22,9 @@ $color-highlight-all: #ee4444;
 .primary-theme {
     color: $color-primary-dark;
     background: $background-primary;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
     a, a:hover {
         color: $color-link-dark;
     }
