@@ -5,6 +5,7 @@
 
 // Colors
 $background-primary: #222;
+$background-primary-active: #2c2c2c;
 $color-primary-dark: #ffffff;
 $color-link-dark: #ee4444;
 
@@ -128,8 +129,11 @@ main {
 .topnav {
     font-size: 20px;
     a {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 15px;
+    }
+    a:hover {
+
+        background-color: $background-primary-active;
     }
 }
 
@@ -157,4 +161,6 @@ main {
     }
 }
 
-
+.active {
+    background-color: $background-primary-active; 
+}
