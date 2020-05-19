@@ -129,7 +129,8 @@ servers:
     Host: "GitHub",
     Projects: [
       "SOBotics Blog": "https://github.com/SOBotics/SOBotics.github.io",
-      "SOBotics Team": "https://github.com/SOBotics/Team-Dash"
+      "SOBotics Team": "https://github.com/SOBotics/Team-Dash",
+      "SOBotics MiniTools": "https://github.com/SOBotics/MiniTools"
     ]
   }
   - "BugsServer": {
