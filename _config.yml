@@ -129,7 +129,8 @@ servers:
     Host: "GitHub",
     Projects: [
       "SOBotics Blog": "https://github.com/SOBotics/SOBotics.github.io",
-      "SOBotics Team": "https://github.com/SOBotics/Team-Dash"
+      "SOBotics Team": "https://github.com/SOBotics/Team-Dash",
+      "SOBotics MiniTools": "https://github.com/SOBotics/MiniTools"
     ]
   }
   - "BugsServer": {
@@ -144,28 +145,35 @@ servers:
 # Same on coders
 contributors: 
   regulars: 
-    - geisterfurz007: "https://stackoverflow.com/users/6707985/"
-    - "Baum mit Augen": "https://stackoverflow.com/users/3002139/"
-    - "Petter Friberg": "https://stackoverflow.com/users/5292302/"
-    - "Shree": "https://stackoverflow.com/users/965146"
-    - "Floern": "https://stackoverflow.com/users/559745"
+    - "Baum mit Augen ♦ (RO)": "https://stackoverflow.com/users/3002139"
+    - "Bhargav Rao ♦ (RO)": "https://stackoverflow.com/users/4099593"
+    - "Rob ♦ (RO)": "https://stackoverflow.com/users/563532"
+    - "NobodyNada (RO)": "https://stackoverflow.com/users/3476191"
+    - "Ashish Ahuja (RO)": "https://stackoverflow.com/users/4688119"
+    - "Petter Friberg (RO)": "https://stackoverflow.com/users/5292302"
+    - "Shree (RO)": "https://stackoverflow.com/users/965146"
+    - "Floern (RO)": "https://stackoverflow.com/users/559745"
+    - "FelixSFD (RO)": "https://stackoverflow.com/users/4687348"
+    - "Filnor (RO)": "https://stackoverflow.com/users/4733879/"
+    - "geisterfurz007": "https://stackoverflow.com/users/6707985"
     - "Zoe": "https://stackoverflow.com/users/6296561"
     - "Jonathan": "https://stackoverflow.com/users/2263949"
     - "double-beep": "https://stackoverflow.com/users/10607772"
     - "kayess": "https://stackoverflow.com/users/4805174"
     - "Rob": "https://stackoverflow.com/users/3648282"
-    - "Bhargav Rao": "https://stackoverflow.com/users/4099593"
     - "Andras Deak": "https://stackoverflow.com/users/5067311"
     - "Yunnosch": "https://stackoverflow.com/users/7733418"
-    - "FelixSFD": "https://stackoverflow.com/users/4687348"
-    - "Rob": "https://stackoverflow.com/users/563532"
     - "adiga": "https://stackoverflow.com/users/3082296"
-    - "Filnor": "https://stackoverflow.com/users/4733879/"
     - "Stephen Kennedy": "https://stackoverflow.com/users/397817/"
-    - "NobodyNada": "https://stackoverflow.com/users/3476191"
-    - "Ashish Ahuja": "https://stackoverflow.com/users/4688119"
     - "Rai Talha Rehman Khan": "https://stackoverflow.com/users/6727487"
     - "Dharman": "https://stackoverflow.com/users/1839439"
     - "Das_Geek": "https://stackoverflow.com/users/11384392"
+    - "sideshowbarker": "https://stackoverflow.com/users/441757"
+    - "Robert Columbia": "https://stackoverflow.com/users/6471538"
+    - "Machavity": "https://stackoverflow.com/users/2370483"
+    - "Paul Roub": "https://stackoverflow.com/users/1324"
+    - "E_net4": "https://stackoverflow.com/users/1233251"
+    - "Daniil": "https://stackoverflow.com/users/12867493"
+    - "M--": "https://stackoverflow.com/users/6461462"
   #coders:
 
